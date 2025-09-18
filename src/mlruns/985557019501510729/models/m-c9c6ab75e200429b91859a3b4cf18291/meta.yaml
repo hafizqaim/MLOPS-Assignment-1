@@ -1,0 +1,10 @@
+artifact_location: file:///f:/University/Assignments/7th%20Semester/MLOps/MLOPS-Assignment-1/src/mlruns/985557019501510729/models/m-c9c6ab75e200429b91859a3b4cf18291/artifacts
+creation_timestamp: 1758045053240
+experiment_id: '985557019501510729'
+last_updated_timestamp: 1758045056708
+model_id: m-c9c6ab75e200429b91859a3b4cf18291
+model_type: null
+name: support_vector_machine_model
+source_run_id: 8e73e2961ddf4b9ba4ce6b0521414e21
+status: 2
+status_message: null

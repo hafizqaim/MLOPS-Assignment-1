@@ -1,0 +1,14 @@
+artifact_uri: file:///f:/University/Assignments/7th%20Semester/MLOps/MLOPS-Assignment-1/src/mlruns/985557019501510729/c221fc9b92864a82b2903bbd8fb744b5/artifacts
+end_time: 1758041122383
+entry_point_name: ''
+experiment_id: '985557019501510729'
+lifecycle_stage: active
+run_id: c221fc9b92864a82b2903bbd8fb744b5
+run_name: Support Vector Machine_run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758041121119
+status: 3
+tags: []
+user_id: resea

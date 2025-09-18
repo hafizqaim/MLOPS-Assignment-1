@@ -1,0 +1,14 @@
+artifact_uri: file:///f:/University/Assignments/7th%20Semester/MLOps/MLOPS-Assignment-1/src/mlruns/0/db541a3e3d9b4f2aa770caea5398428d/artifacts
+end_time: 1757958074252
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: db541a3e3d9b4f2aa770caea5398428d
+run_name: CIFAR10_SVM
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757958074047
+status: 3
+tags: []
+user_id: resea

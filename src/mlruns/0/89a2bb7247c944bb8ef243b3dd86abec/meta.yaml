@@ -1,0 +1,14 @@
+artifact_uri: file:///f:/University/Assignments/7th%20Semester/MLOps/MLOPS-Assignment-1/src/mlruns/0/89a2bb7247c944bb8ef243b3dd86abec/artifacts
+end_time: 1757958074041
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 89a2bb7247c944bb8ef243b3dd86abec
+run_name: CIFAR10_Random Forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757958073828
+status: 3
+tags: []
+user_id: resea

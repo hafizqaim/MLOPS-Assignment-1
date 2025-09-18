@@ -1,0 +1,14 @@
+artifact_uri: file:///f:/University/Assignments/7th%20Semester/MLOps/MLOPS-Assignment-1/src/mlruns/0/638ce40d885549c883613fc5632a2298/artifacts
+end_time: 1757957752294
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 638ce40d885549c883613fc5632a2298
+run_name: Neural Network (MLP)_CIFAR10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757957751930
+status: 3
+tags: []
+user_id: resea

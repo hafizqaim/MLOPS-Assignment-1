@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/4934baaad5b0421a87a7269a54165d4e/artifacts
+end_time: 1757946743430
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4934baaad5b0421a87a7269a54165d4e
+run_name: Neural Network (MLP)_run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757946727783
+status: 4
+tags: []
+user_id: resea

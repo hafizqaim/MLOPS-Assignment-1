@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/0/models/m-ef462eba3e0e49fdbdd0549f9a14fa8e/artifacts
+creation_timestamp: 1757946729250
+experiment_id: '0'
+last_updated_timestamp: 1757946743375
+model_id: m-ef462eba3e0e49fdbdd0549f9a14fa8e
+model_type: null
+name: neural_network_(mlp)_model
+source_run_id: 4934baaad5b0421a87a7269a54165d4e
+status: 3
+status_message: null

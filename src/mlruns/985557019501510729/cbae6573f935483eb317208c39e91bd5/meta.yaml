@@ -1,0 +1,14 @@
+artifact_uri: file:///f:/University/Assignments/7th%20Semester/MLOps/MLOPS-Assignment-1/src/mlruns/985557019501510729/cbae6573f935483eb317208c39e91bd5/artifacts
+end_time: 1758216966074
+entry_point_name: ''
+experiment_id: '985557019501510729'
+lifecycle_stage: active
+run_id: cbae6573f935483eb317208c39e91bd5
+run_name: Random Forest_complete_20250918_223528
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758216959255
+status: 3
+tags: []
+user_id: resea

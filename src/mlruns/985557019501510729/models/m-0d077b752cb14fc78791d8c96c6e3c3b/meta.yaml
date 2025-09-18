@@ -1,0 +1,10 @@
+artifact_location: file:///f:/University/Assignments/7th%20Semester/MLOps/MLOPS-Assignment-1/src/mlruns/985557019501510729/models/m-0d077b752cb14fc78791d8c96c6e3c3b/artifacts
+creation_timestamp: 1758216930503
+experiment_id: '985557019501510729'
+last_updated_timestamp: 1758216958739
+model_id: m-0d077b752cb14fc78791d8c96c6e3c3b
+model_type: null
+name: neural_network_mlp_model
+source_run_id: 8f5d949e4714424dba53854f9f1aab29
+status: 2
+status_message: null

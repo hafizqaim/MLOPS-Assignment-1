@@ -1,0 +1,10 @@
+artifact_location: file:///f:/University/Assignments/7th%20Semester/MLOps/MLOPS-Assignment-1/src/mlruns/985557019501510729/models/m-5de18f35efca43cfbd1dd9790d613e10/artifacts
+creation_timestamp: 1758042900366
+experiment_id: '985557019501510729'
+last_updated_timestamp: 1758042903673
+model_id: m-5de18f35efca43cfbd1dd9790d613e10
+model_type: null
+name: random_forest_model
+source_run_id: 7ba3fae10a254ccaae5ebe4f0db9abc4
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///f:/University/Assignments/7th%20Semester/MLOps/MLOPS-Assignment-1/src/mlruns/985557019501510729/9f532802438841d3a306696771e452cd/artifacts
+end_time: 1758042928828
+entry_point_name: ''
+experiment_id: '985557019501510729'
+lifecycle_stage: active
+run_id: 9f532802438841d3a306696771e452cd
+run_name: Neural Network (MLP)_run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758042927857
+status: 3
+tags: []
+user_id: resea

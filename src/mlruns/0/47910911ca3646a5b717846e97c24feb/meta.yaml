@@ -1,0 +1,14 @@
+artifact_uri: file:///f:/University/Assignments/7th%20Semester/MLOps/MLOPS-Assignment-1/src/mlruns/0/47910911ca3646a5b717846e97c24feb/artifacts
+end_time: 1757958074477
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 47910911ca3646a5b717846e97c24feb
+run_name: CIFAR10_Neural Network
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757958074267
+status: 3
+tags: []
+user_id: resea

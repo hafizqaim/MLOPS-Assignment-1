@@ -124,6 +124,10 @@ joblib
 
 This project is developed as part of an academic assignment for the MLOps course. It demonstrates best practices in machine learning operations and serves as a learning resource for MLOps implementation.
 
+<img width="705" height="612" alt="confusion_matrix_neural_network_mlp" src="https://github.com/user-attachments/assets/e96a1a49-6331-4f48-822d-0566ac1d6224" />
+<img width="696" height="612" alt="confusion_matrix_random_forest" src="https://github.com/user-attachments/assets/49fe87d1-4549-412d-8e50-da7e6ad8a4e7" />
+<img width="705" height="612" alt="confusion_matrix_support_vector_machine" src="https://github.com/user-attachments/assets/2548e1ae-b573-412e-97a3-89696b44201b" />
+
 **Note:** This implementation is for educational purposes and should be adapted for production use with appropriate security, scalability, and performance considerations.
 
 ---

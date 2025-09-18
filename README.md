@@ -1,56 +1,129 @@
-# MLOps Assignment 1: CIFAR-10 Model Comparison and MLflow Tracking
+# MLOps Assignment 1: Complete MLOps Pipeline Implementation
 
-## Project Description
-This project demonstrates a complete MLOps pipeline for image classification using a synthetic CIFAR-10 dataset. The workflow covers data preprocessing, model training, experiment tracking, model comparison, artifact logging, and model registration using MLflow. Three machine learning models are compared: Multi-layer Perceptron (Neural Network), Random Forest, and Support Vector Machine (SVM). The best performing model is registered in the MLflow Model Registry.
+## Project Overview
+This project demonstrates a comprehensive MLOps pipeline implementation for image classification using machine learning models. The workflow encompasses all five parts of the assignment requirements, from GitHub setup to complete project documentation.
 
-**Key Features:**
-- Synthetic CIFAR-10 dataset (1000 samples, 10 classes)
-- Data preprocessing and visualization
-- Training and evaluation of three models (MLP, Random Forest, SVM)
-- Comprehensive experiment tracking with MLflow (metrics, parameters, artifacts)
-- Model artifact and confusion matrix logging
-- Model registration in MLflow Model Registry
-- Reproducible and well-documented notebook
+## Project Structure
+```
+MLOPS-Assignment-1/
+├── src/
+│   ├── Assignment-1 Code.ipynb    # Main implementation notebook
+│   └── mlruns/                    # MLflow tracking data
+├── models/                        # Saved model artifacts
+│   ├── neural_network_mlp_*.joblib
+│   ├── random_forest_*.joblib
+│   ├── support_vector_machine_*.joblib
+│   ├── feature_scaler_*.joblib
+│   └── model_results_*.csv
+├── data/                          # Dataset directory
+├── notebooks/                     # Additional notebooks
+├── results/                       # Analysis results
+├── mlruns/                        # MLflow experiment data
+├── requirements.txt               # Project dependencies
+├── recreate_mlflow_experiments.py # MLflow setup script
+└── README.md                      # Project documentation
+```
 
-## Setup Instructions
+## Setup and Installation
 
-### 1. Clone the Repository
+### Prerequisites
+- Python 3.8 or higher
+- Git for version control
+- VS Code or Jupyter Notebook environment
+
+### Installation Steps
+
+1. **Clone the Repository**
 ```powershell
 git clone https://github.com/hafizqaim/MLOPS-Assignment-1.git
-cd MLOPS-Assignment-1/src
+cd MLOPS-Assignment-1
 ```
 
-### 2. Create and Activate a Python Environment
-It is recommended to use a virtual environment:
+2. **Create Virtual Environment**
 ```powershell
-python -m venv venv
-.\venv\Scripts\activate
+python -m venv mlops_env
+.\mlops_env\Scripts\activate
 ```
 
-### 3. Install Dependencies
+3. **Install Dependencies**
 ```powershell
-pip install -r ..\requirements.txt
+pip install -r requirements.txt
 ```
 
-### 4. Run the Notebook
-Open `Assignment-1 Code.ipynb` in VS Code or Jupyter and run all cells sequentially.
-
-### 5. Start MLflow UI
-In a new terminal, from the `src` directory:
+4. **Navigate to Source Directory**
 ```powershell
+cd src
+```
+
+5. **Run the Main Notebook**
+Open `Assignment-1 Code.ipynb` in VS Code or Jupyter Lab and execute all cells sequentially.
+
+## MLflow Integration
+
+### Start MLflow UI
+```powershell
+# From the src/ directory
 mlflow ui
 ```
-Then open [http://localhost:5000](http://localhost:5000) in your browser.
+Access the UI at: [http://localhost:5000](http://localhost:5000)
 
-### 6. Explore Results
-- Compare model runs, metrics, and artifacts in the MLflow UI
-- Download model files and confusion matrices
-- View registered models in the Model Registry
+### Features Available in MLflow UI
+- **Experiments:** View all model training runs
+- **Metrics:** Compare accuracy, precision, recall, F1-score
+- **Parameters:** Analyze hyperparameter configurations
+- **Artifacts:** Download models and confusion matrices
+- **Model Registry:** Access registered best performing model
 
-## Notes
-- All models and artifacts are saved in the `/models` directory
-- The notebook is self-contained and reproducible
-- For any issues, ensure you are running MLflow UI from the `src` directory where the `mlruns` folder is created
-- This is a university assignment project and should not be used for commercial purposes.
+## Results Summary
+
+### Model Performance Comparison
+| Model | Accuracy | Precision | Recall | F1-Score | Training Time |
+|-------|----------|-----------|--------|----------|---------------|
+| **Random Forest** | **~13.5%** | **~13.2%** | **~13.5%** | **~12.7%** | ~1.04s |
+| Support Vector Machine | ~12.0% | ~2.6% | ~12.0% | ~4.3% | ~1.18s |
+| Neural Network (MLP) | ~8.5% | ~6.6% | ~8.5% | ~6.5% | ~0.76s |
+
+### Key Insights
+- **Best Model:** Random Forest with highest overall performance
+- **Fastest Training:** Neural Network MLP with shortest training time
+- **Most Consistent:** Random Forest with balanced precision-recall
+- **Recommendation:** Random Forest for deployment due to superior generalization
+
+## Technical Specifications
+
+### Dependencies
+```
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+mlflow
+joblib
+```
+
+### Model Configurations
+- **MLP:** 2 hidden layers (100, 50 neurons), early stopping enabled
+- **Random Forest:** 100 estimators, max depth 10, all CPU cores utilized
+- **SVM:** RBF kernel, C=1.0, gamma='scale' for optimal performance
+
+### Data Processing
+- **Train-Test Split:** 80-20 ratio with stratification
+- **Feature Scaling:** StandardScaler for neural network and SVM
+- **Preprocessing:** Systematic approach for different model requirements
+
+## Usage Instructions
+
+### Running the Complete Pipeline
+1. Execute the notebook cells sequentially from top to bottom
+2. Monitor MLflow UI for real-time experiment tracking
+3. Check the `/models` directory for saved artifacts
+4. Review model comparison results and insights
+
+## License & Academic Use
+
+This project is developed as part of an academic assignment for the MLOps course. It demonstrates best practices in machine learning operations and serves as a learning resource for MLOps implementation.
+
+**Note:** This implementation is for educational purposes and should be adapted for production use with appropriate security, scalability, and performance considerations.
 
 ---
